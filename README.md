@@ -7,3 +7,20 @@ One way inheritance can be used in the program is by creating the manager and sa
 
 c)
 Libraries have predefined classes, which can cut the work needed to create the programs by a significant amount.
+
+2b)
+So the attributes can remain private and cannot be changed externally.
+
+ci)
+![image](https://github.com/kennethjy/OOPF2/assets/114073455/5ac900d7-0ef9-4fe8-9213-88960e7c3eb3)
+
+cii)
+If a sale needs to be changed, for example because of a typo when first entered, there will be no way to do it.
+
+d) There will be no output as the getSalesHistory method is not created yet. After it is created, the output is:
+102
+2
+2550.4
+5000.0
+
+e)
