@@ -24,4 +24,7 @@ d) There will be no output as the getSalesHistory method is not created yet. Aft
 2550.4
 5000.0
 
-e)
+h) 
+Add a new attribute to the Sales class to put in the date. It's also possible to add a temporary list to the SalesPerson class to store the current month's sale only, although it's optional.
+
+i) There is no inheritance, so there is no overriding. For overloading, there are 2 constructors in the SalesPerson class
