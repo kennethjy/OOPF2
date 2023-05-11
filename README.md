@@ -12,6 +12,7 @@ Libraries have predefined classes, which can cut the work needed to create the p
 So the attributes can remain private and cannot be changed externally.
 
 ci)
+
 ![image](https://github.com/kennethjy/OOPF2/assets/114073455/5ac900d7-0ef9-4fe8-9213-88960e7c3eb3)
 
 cii)
