@@ -19,9 +19,13 @@ cii)
 If a sale needs to be changed, for example because of a typo when first entered, there will be no way to do it.
 
 d) There will be no output as the getSalesHistory method is not created yet. After it is created, the output is:
+
 102
+
 2
+
 2550.4
+
 5000.0
 
 h) 
