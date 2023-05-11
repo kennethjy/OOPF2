@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Driver {
     public static void main(String[] args){
 
@@ -23,5 +25,24 @@ public class Driver {
 
         System.out.println(salesPeople[0].calcTotalSales());
 
+    }
+
+    public String highest(SalesPerson[] salesPeople){
+        int index = 0;
+        for(int i = 1; i < salesPeople.length; i++){
+            if(salesPeople[i].calcTotalSales() > salesPeople[index].calcTotalSales()){
+                index = i;
+            }
+        }
+        return salesPeople[index].getId();
+    }
+
+    public void addSales(Sales s, String id, SalesPerson[] salesPeople){
+        for (SalesPerson salesPerson : salesPeople) {
+            if (Objects.equals(salesPerson.getId(), id)) {
+                salesPerson.setSalesHistory(s);
+                break;
+            }
+        }
     }
 }
